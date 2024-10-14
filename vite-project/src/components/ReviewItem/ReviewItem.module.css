@@ -1,0 +1,39 @@
+.yellow {
+    width: 16px;
+    height: 16px;
+    fill: #ffc531;
+  }
+  
+  .gray {
+    width: 16px;
+    height: 16px;
+    fill: #f2f4f7;
+  }
+  
+  .letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 60px;
+    height: 60px;
+  
+    border-radius: 60px;
+    background: #f2f4f7;
+  
+    color: #e44848;
+  
+    font-size: 24px;
+  
+    font-weight: 600;
+    line-height: 32px;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+  
+    gap: 16px;
+  
+    margin-bottom: 16px;
+  }

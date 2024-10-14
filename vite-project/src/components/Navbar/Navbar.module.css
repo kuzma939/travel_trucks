@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .link {
+    font-weight: 500;
+    line-height: 24px;
+  }
+  
+  .active {
+    color: red;
+  }

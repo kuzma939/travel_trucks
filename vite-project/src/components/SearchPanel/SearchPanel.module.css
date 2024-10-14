@@ -1,0 +1,93 @@
+.form {
+    max-width: 360px;
+  }
+  .locationTitle {
+    margin-bottom: 8px;
+  
+    color: #6c717b;
+  }
+  .locationWrapper {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .locationInput {
+    width: 360px;
+    height: 56px;
+    padding: 16px 48px;
+  
+    border-radius: 12px;
+    background: #f7f7f7;
+    outline: transparent;
+    border-color: transparent;
+  }
+  .locationIcon {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+  }
+  .filtersTitle {
+    margin-bottom: 32px;
+  
+    color: #475467;
+  
+    font-weight: 500;
+  }
+  
+  .filterName {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  
+    color: #101828;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  
+    border-bottom: solid 1px #dadde1;
+  }
+  
+  .equipments {
+    margin-bottom: 32px;
+  }
+  
+  .types {
+    margin-bottom: 40px;
+  }
+  
+  .equipmentOptions,
+  .typeOptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  
+    width: 112px;
+    height: 96px;
+  
+    border-radius: 12px;
+    border: 1px solid #dadde1;
+    mix-blend-mode: multiply;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  
+    transition: border-color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .input {
+    position: absolute;
+    opacity: 0;
+  }
+  .input::placeholder {
+    color: #6c717b;
+  }
+  .input:checked + .label {
+    border-color: #f25c5c;
+  }

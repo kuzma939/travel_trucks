@@ -1,0 +1,27 @@
+.container {
+  height: calc(100vh - 72px);
+  padding: 250px 60px;
+  background-image: url(../../img/Foon.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2) {
+  .container {
+    background-image: url(../../images/homePage/background@2x.jpg);
+  }
+}
+
+.title {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.text {
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}

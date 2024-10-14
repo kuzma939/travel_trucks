@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .item {
+    background-color: #eee;
+    border-radius: 8px;
+  }
+  
+  .image {
+    width: 290px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    fill: #ffcc00;
+  }
+  
+  .rating {
+    margin-right: 18px;
+  }
+  
+  .location {
+    color: #555;
+  }
+  

@@ -1,0 +1,48 @@
+.camperCard {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .image {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .details {
+    flex-grow: 1;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .priceAndFav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .price {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  

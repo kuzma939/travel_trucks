@@ -1,0 +1,16 @@
+.toggleContainer {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+  }
+  
+  .toggleButton {
+    padding-bottom: 20px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .active {
+    border-bottom: 4px solid #e44848;
+  }
+  

@@ -1,0 +1,15 @@
+.redirectButton {
+    padding: 14px 60px;
+    border-radius: 50px;
+    background-color: #e44848;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .redirectButton:hover,
+  .redirectButton:focus {
+    background-color: #d84343;
+  }
+  

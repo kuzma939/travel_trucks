@@ -1,0 +1,21 @@
+.container {
+    width: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #d3d6da;
+    border-radius: 12px;
+  }
+  
+  .errorImage {
+    width: 220px;
+  }
+  
+  .errorMessage {
+    font-size: 26px;
+    color: #333;
+  }
+  

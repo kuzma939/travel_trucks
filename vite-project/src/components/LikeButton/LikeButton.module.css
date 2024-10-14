@@ -1,0 +1,16 @@
+.button {
+    padding: 8px 16px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 28px;
+    height: 26px;
+  }
+  
+  .active {
+    fill: red;
+  }
+  

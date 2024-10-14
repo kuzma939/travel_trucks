@@ -1,0 +1,11 @@
+.item {
+    display: flex;
+    gap: 24px;
+    width: 888px;
+  
+    padding: 24px;
+    margin-bottom: 32px;
+  
+    border-radius: 20px;
+    border: 1px solid #dadde1;
+  }

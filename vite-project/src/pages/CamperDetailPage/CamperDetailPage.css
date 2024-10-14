@@ -1,0 +1,24 @@
+.page {
+  padding: 50px 60px 80px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.price {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 60px;
+}
+
+.sectionContainer {
+  display: flex;
+  gap: 40px;
+}

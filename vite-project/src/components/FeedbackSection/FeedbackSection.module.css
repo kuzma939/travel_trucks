@@ -1,0 +1,9 @@
+.item {
+    width: 631px;
+  
+    margin-bottom: 44px;
+  }
+  
+  .item:last-child {
+    margin-bottom: 0;
+  }
